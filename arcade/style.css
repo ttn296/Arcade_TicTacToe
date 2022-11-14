@@ -1,0 +1,42 @@
+body {
+    font-family: verdana;
+    text-align: center;
+}
+
+select {
+    height: 2rem;
+}
+
+.cell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px; 
+    box-shadow: 0 0 0 2px;
+    border: 2px solid;
+    line-height: 75px;
+    font-size: 60px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    margin: 1rem;
+    position: relative;
+}
+
+button {
+    margin: 1rem;
+    padding: 1rem;
+}
+#name{
+    margin: 3em;
+    padding: 2em;
+}

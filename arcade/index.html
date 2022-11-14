@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Arcade Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="container">
+    <h1>Tic-Tac-Toe</h1>
+    <form>
+      <label id="name">Player's Name</label><br>
+      <input type="text" id="myText"><br>
+      <button type="button" id="myButton">Submit</button>
+      <p class="output" id="output1"></p>
+    </form>
+    <div id ="charSelect"></div>
+    <div id="grid">
+        <div id="1" class="cell"></div>
+        <div id="2" class="cell"></div>
+        <div id="3" class="cell"></div>
+        <div id="4" class="cell"></div>
+        <div id="5" class="cell"></div>
+        <div id="6" class="cell"></div>
+        <div id="7" class="cell"></div>
+        <div id="8" class="cell"></div>
+        <div id="9" class="cell"></div>
+    </div>
+    <div class="score">
+    <div id="player1"></div>
+    <div id="player2"></div>
+  </div>
+    <div id="game-over">
+      <div id="winningMessage"></div><br>
+      <div id="player1">X: 0</div>
+      <div id="player2">O: 0</div>
+      <button id="playAgainBtn">Play Again</button>
+    </div>
+  </div>
+</body>
+</html>
